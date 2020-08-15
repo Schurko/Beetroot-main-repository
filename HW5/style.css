@@ -1,0 +1,40 @@
+body{
+    background-color: #121116;
+    background-image: url(images/grid.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+main {
+        margin-top: 100px;
+        }
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    }
+.text{
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+        font-style: inherit;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+.separator{
+    display: flex;
+    justify-content: center;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    }
+.social a{
+    display:  block;
+    margin: 15px 15px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}

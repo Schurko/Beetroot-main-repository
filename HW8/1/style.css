@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .wrapper {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 170px;
+    font-family: Montserrat, Arial, sans-serif;
+    border: crimson;
+    border-radius: 20px;
+    border-style: dotted;
+  }
+  
+  .company-section {
+    padding: 140px 0 140px;
+    text-align: center;
+     width: 960px;
+  }
+  
+  .company-section header {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #898f99;
+  }
+  
+  .company-section h1 {
+    font-size: 48px;
+    color: #0ec8cb;
+    margin: 30px 0 45px;
+    text-transform: uppercase;
+  }
+  
+  .company-section > p {
+    font-size: 18px;
+    line-height: 30px;
+    width: 700px;
+    margin: 50px auto 110px;
+    text-transform: uppercase;
+    color: #999999;
+  }
+  
+  .profiles {
+   font-size: 0;
+   padding: 0 10px;
+   justify-content: center;
+  }
+  
+  .item {
+    display: inline-table;
+    background-color: #f7f7f780;
+    color: black;
+    width: 240px;
+    height: 420px;
+  }
+    .item:first-child{
+    width: 230px;
+  }
+  
+  .item:last-child{
+    width: 230px;
+  }
+  
+  .icon {
+    width: 200px;
+    height: 160px;
+    margin: 0 auto;
+  }
+  
+  #item-design .icon {
+    background: url(images/anchor-black.png) center center no-repeat;
+    transition: all .1s ease-in
+  }
+  
+  #item-development .icon {
+    background: url(images/diamond-black.png) center center no-repeat;
+    transition: all .1s ease-in
+  }
+  
+  #item-graphics .icon {
+    background: url(images/eyeglasses-black.png) center center no-repeat;
+    transition: all .1s ease-in
+  }
+  
+  #item-illustrations .icon {
+    background: url(images/monitor-black.png) center center no-repeat;
+    transition: all .1s ease-in
+  }
+  
+  .top {
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 0 auto 35px;
+  }
+  
+  .text {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0 20px;
+  }
+  
+  .item:hover {
+    background-color: #0ec8cb80;
+    color: white;
+    transition: all .2s ease-in
+  }
+  
+  .item:hover:first-child{
+    background-color: #0ec8cb80;
+    color: white;
+  }
+  
+  #item-design.item:hover .icon {
+    background-image: url(images/anchor-white.png);
+    transition: all .2s ease-in
+  }
+  
+  #item-development.item:hover .icon {
+    background-image: url(images/diamond-white.png);
+    transition: all .2s ease-in
+  }
+  
+  #item-graphics.item:hover .icon {
+    background-image: url(images/eyeglasses-white.png);
+    transition: all .2s ease-in
+  }
+  
+  #item-illustrations.item:hover .icon {
+    background-image: url(images/monitor-white.png);
+    transition: all .2s ease-in
+  }
+  

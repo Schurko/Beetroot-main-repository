@@ -1,0 +1,96 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+    justify-content: center;
+    display: flex;
+}
+.header{
+    margin: 50px;
+}
+.grand-div{
+width:1000px;
+position: relative;
+}
+.tittle{
+    text-align: center;
+    font-size: 27px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    }
+.lorem-text{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-style: italic;
+    font-weight: inherit;
+    }
+.main-blocks{
+    height: 270px;
+    width: 1000px;
+    display:flex;   
+    justify-content: center;
+}
+.window-1{
+         width: 270px;
+         height: 270px;
+         background-image: url(images/01.png);
+        background-repeat: no-repeat;
+        position: relative;
+        justify-content: center;
+        margin: 0 auto;
+        }
+.window-2{
+        width: 270px;
+        height: 270px;
+        background-image: url(images/02.png);
+        background-position: top;
+        position: relative;
+        justify-content: center;
+        margin: 0 auto;
+            }
+.window-3{
+        width: 270px;
+        height: 270px;
+        background-image: url(images/05.png);
+        background-position: top;
+        position: relative;
+        justify-content: center;
+        margin: 0 auto;
+ }
+ img{
+     text-align: center;
+ }
+.socialnetwork {
+        height: 30px;
+        width: 30px;
+        background-color: rgb(175, 186, 197);
+        display: none;
+            }
+.window-1:hover{
+        height: 270px;
+        width: 270px;
+        background-image: url(images/layer.png);
+        transition: all .1s ease-in;
+}
+.window-2:hover{
+        height: 270px;
+        width: 270px;
+        background-image: url(images/layer.png);
+       transition: all .1s ease-in;
+    }
+.window-3:hover{
+        height: 270px;
+        width: 270px;
+        background-image: url(images/layer.png);
+       transition: all .1s ease-in;
+    }    
+    .names-text{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    margin-top: 0px;
+    }

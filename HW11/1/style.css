@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "HansKedrick";
+    src: url('fonts/HansKendrick-Regular.otf');
+}
+body {
+     background-color: #E2E7EC;
+}
+.wrap{
+    margin: auto;
+    width: 1119px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.car-block-section{
+    background-image: url(images/first.png);
+    width: 740px;
+    height: 540px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.car-text{
+    position: absolute;
+    top: 400px;
+    left: 45px
+}
+.block-section{
+    height: 540px;
+    width:360px;  
+    background-color: white;
+    margin-bottom: 10px;
+}
+.section-text{
+    margin: 25px;
+}
+.date {
+    font-family: "HansKedrick";
+    font-size: 13px;  
+    color: rgba(129, 129, 129, 0.502);
+    line-height: 15px;
+    margin-bottom: 20px;
+}
+.post-title {
+    font-size: 30px;
+    font-family: "HansKedrick";
+    color:white;
+    font-weight: bold;
+    line-height: 35px;
+    margin: 0;
+}
+.content-text {
+     font-size: 22px;
+     font-family: "HansKedrick";
+    color: rgb(29, 29, 29);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.image{
+    height: 251px;
+    width: 360px;
+}
+.avatar{
+    height: 54px;
+    width: 54px;
+    background-image: url(images/avatar.png);
+    margin: 18px;
+}
+#girl{
+    background-image: url(images/second.png);
+    background-repeat: no-repeat;
+}
+#girls{
+    background-image: url(images/third.png);
+    background-repeat: no-repeat;
+}
+#legs{
+    background-image: url(images/forth.png);
+    background-repeat: no-repeat;
+}
+#old-car{
+    background-image: url(images/fifth.png);
+    background-repeat: no-repeat;
+}
